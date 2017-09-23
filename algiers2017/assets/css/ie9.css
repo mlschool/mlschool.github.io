@@ -1,0 +1,142 @@
+/*
+	Archetype by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+*/
+
+/* List */
+
+	ul.features li {
+		overflow: hidden;
+	}
+
+		ul.features li h3 {
+			display: inline-block;
+			float: left;
+		}
+
+		ul.features li p {
+			display: inline-block;
+		}
+
+/* Posts */
+
+	.posts {
+		overflow: hidden;
+	}
+
+		.posts .post {
+			overflow: hidden;
+		}
+
+			.posts .post .image {
+				display: inline-block;
+				float: left;
+				width: 35%;
+			}
+
+			.posts .post .content {
+				display: inline-block;
+				width: 55%;
+			}
+
+		.posts > * {
+			display: inline-block;
+			float: left;
+		}
+
+/* Wrapper */
+
+	.wrapper.cta {
+		position: relative;
+		background-image: url("../../images/cta.jpg");
+		background-position: center center;
+		background-size: cover;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+	}
+
+		.wrapper.cta > * {
+			position: relative;
+			z-index: 1;
+		}
+
+		.wrapper.cta:before {
+			content: '';
+			display: block;
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+			background: #2F373F;
+			opacity: 0.6;
+		}
+
+		.wrapper.cta > .inner {
+			overflow: hidden;
+		}
+
+			.wrapper.cta > .inner > * {
+				float: left;
+				display: inline-block;
+			}
+
+	.wrapper.sidebar > .inner {
+		overflow: hidden;
+	}
+
+	.wrapper.sidebar.left > .inner > .content {
+		float: right;
+	}
+
+	.wrapper.sidebar.left > .inner > .sidebar {
+		float: right;
+	}
+
+	.wrapper.sidebar.right > .inner > .content {
+		float: left;
+	}
+
+	.wrapper.sidebar.right > .inner > .sidebar {
+		float: left;
+	}
+
+/* Banner */
+
+	#banner {
+		position: relative;
+		background-image: url("../../images/banner.jpg");
+		background-position: center center;
+		background-size: cover;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+	}
+
+		#banner .content > .inner {
+			overflow: hidden;
+		}
+
+			#banner .content > .inner header {
+				float: left;
+			}
+
+/* Footer */
+
+	#footer {
+		position: relative;
+		background-image: url("../../images/banner.jpg");
+		background-position: center center;
+		background-size: cover;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+	}
+
+		#footer .content > .inner {
+			overflow: hidden;
+		}
+
+			#footer .content > .inner > * {
+				display: inline-block;
+				float: left;
+			}

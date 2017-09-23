@@ -1,0 +1,21 @@
+@import '../libs/vars';
+@import '../libs/functions';
+@import '../libs/mixins';
+
+///
+/// Archetype by Pixelarity
+/// pixelarity.com | hello@pixelarity.com
+/// License: pixelarity.com/license
+///
+
+/* Icon */
+
+	.icon {
+		@include icon;
+		border-bottom: none;
+		position: relative;
+
+		> .label {
+			display: none;
+		}
+	}

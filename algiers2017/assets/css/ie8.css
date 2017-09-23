@@ -1,0 +1,59 @@
+/*
+	Archetype by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+*/
+
+/* List */
+
+	ul.features li {
+		border-top-color: #ddd;
+	}
+
+		ul.features li h3:before {
+			border: solid 2px #ddd;
+		}
+
+/* Button */
+
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	button,
+	.button {
+		border: solid 2px #ddd;
+		position: relative;
+		-ms-behavior: url("assets/js/ie/PIE.htc");
+	}
+
+		input[type="submit"].special,
+		input[type="reset"].special,
+		input[type="button"].special,
+		button.special,
+		.button.special {
+			border: none;
+		}
+
+/* Section/Article */
+
+	header.major:after {
+		background-color: #ddd;
+	}
+
+/* Wrapper */
+
+	.wrapper.cta:before {
+		background: url("images/ie/overlay.png") !important;
+	}
+
+/* Banner */
+
+	#banner .content {
+		background: url("images/ie/overlay.png");
+	}
+
+/* Footer */
+
+	#footer .content {
+		background: url("images/ie/overlay.png");
+	}
