@@ -1,5 +1,5 @@
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300italic,700italic,700,300");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300italic,500italic,500,600,300");
 
 /*
 	Archetype by Pixelarity
@@ -1477,7 +1477,7 @@
 		}
 
 	strong, b {
-		font-weight: 700;
+		font-weight: 500;
 	}
 
 	em, i {
@@ -1485,11 +1485,11 @@
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 1em 2em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 700;
+		font-weight: 500;
 		line-height: 1em;
 		margin: 0 0 1em 0;
 		text-transform: uppercase;
@@ -1681,7 +1681,7 @@
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.8em;
-		font-weight: 700;
+		font-weight: 500;
 		height: 3.25em;
 		line-height: 3.35em;
 		padding: 0 2em;
@@ -1856,7 +1856,7 @@
 	label {
 		display: block;
 		font-size: 0.9em;
-		font-weight: 700;
+		font-weight: 500;
 		margin: 0 0 1em 0;
 	}
 
@@ -2389,7 +2389,7 @@
 
 		dl dt {
 			display: block;
-			font-weight: 700;
+			font-weight: 500;
 			margin: 0 0 1em 0;
 		}
 
@@ -2614,7 +2614,7 @@
 
 		table th {
 			font-size: 0.9em;
-			font-weight: 700;
+			font-weight: 500;
 			padding: 0 0.75em 0.75em 0.75em;
 			text-align: left;
 		}
@@ -3878,7 +3878,7 @@
 				background: #ffffff;
 				border-radius: 100%;
 				color: #5f9dd2;
-				content: '\f19d';
+				content: '.'; /*\f19d*/
 				display: inline-block;
 				font-size: 0.9em;
 				height: 2em;
@@ -3910,7 +3910,7 @@
 				}
 
 					#header nav ul li a {
-						font-weight: 700;
+						font-weight: 500;
 						letter-spacing: 0.05em;
 						text-transform: uppercase;
 						font-size: 0.9em;
@@ -4627,7 +4627,7 @@
 			}
 
 			#navPanel .link.depth-0 {
-				font-weight: 700;
+				font-weight: 500;
 				color: inherit !important;
 			}
 
